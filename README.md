@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <style form {
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <style> form {
   /* Center the form on the page */
   margin: 0 auto;
   width: 400px;
@@ -66,11 +68,9 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
-}> 
-    </style>
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
+}
+</style>
+</head>
   <body> 
     <form action="/my-handling-form-page" method="post">
     <ul>
