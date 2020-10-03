@@ -18,7 +18,7 @@
         </li>
       <li>
         <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <textarea id="msg" name="user_message"> </textarea>
       </li>
     <li class="button">
       <buttom type="submit">Send your Message</button>
