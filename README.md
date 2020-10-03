@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
-    <style> form {
+    <style> 
+      form {
   /* Center the form on the page */
   margin: 0 auto;
   width: 400px;
@@ -13,25 +14,21 @@
   border: 1px solid #CCC;
   border-radius: 1em;
 }
-
-ul {
+      ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-form li + li {
+      form li + li {
   margin-top: 1em;
 }
-
-label {
+      label {
   /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
   text-align: right;
 }
-
-input, 
+      input, 
 textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
@@ -44,13 +41,11 @@ textarea {
   /* Match form field borders */
   border: 1px solid #999;
 }
-
 input:focus, 
 textarea:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
 }
-
 textarea {
   /* Align multiline text fields with their labels */
   vertical-align: top;
@@ -58,7 +53,6 @@ textarea {
   /* Provide space to type some text */
   height: 5em;
 }
-
 .button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
