@@ -11,58 +11,56 @@
       border: 1px solid #CCC;
       border-radius: 1em;
       }
-      
-      ul {
+       ul {
       list-style: none;
       padding: 0;
       margin: 0;
       }
-      
-      form li + li {
+       form li + li {
       margin-top: 1em;
       }
       
-      label {
+ label {
       /* Uniform size & alignment */
       display: inline-block;
       width: 90px;
       text-align: right;
       }
       
-      input,
+ input,
       textarea {
       /* To make sure that all text fields have the same font settings
       By default, textareas have a monospace font */
       font: 1em sans-serif;
       
-      /* Uniform text field size */
+   /* Uniform text field size */
       width: 300px;
       box sizing: border-box;
       
-      /* Match form field borders */
+   /* Match form field borders */
       border: 1px solid #999;
       }
       
-      input:focus,
+   input:focus,
       textarea:focus {
       /* Additional highlight for focused elements */
       border-color: #000;
       }
       
-      textarea {
+   textarea {
       /* Align multiline text fields with their labels */
       vertical-align: top;
       
-      /* Provide space to type some text */
+   /* Provide space to type some text */
       height: 5e,;
       }
       
-      .button {
+   .button {
       /* Align buttons with the text fields */
       padding-left: 90px; /* same size as the label elements */
       }
       
-      button {
+   button {
       /* This extra margin represnt roughly the same space as the space between the labels and their text firlds */
       margin-left: .5em;
       }
